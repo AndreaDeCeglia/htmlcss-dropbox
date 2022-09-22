@@ -1,14 +1,18 @@
-/* utility settings */
+/* utilities settings */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.unstyle{
+.unstyle-list{
     list-style: none;
+}
+
+.unstyle-a{
+    text-decoration: none;
 }
 
 img{
@@ -27,6 +31,10 @@ img{
 
 .padding-1{
     padding: 1%;
+}
+
+.margin-1{
+    margin: 1%;
 }
 
 
@@ -146,4 +154,97 @@ img{
 
 .basis1-4{
     flex-basis: calc( 100% / 4 );
+}
+
+/* buttons */
+
+.btn{
+    padding: 5px 15px;
+}
+
+.blue{
+    background-color: #297AFE;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* float */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+/* header */
+
+.navbar{
+    background-color: lightgray;
+    height: 60px;
+    width: 100%;
+    padding: 15px 20px;
+    position: fixed;
+    border-bottom: 1px solid #CFCFD2;
+    z-index: 1;
+}
+
+header .logo, header ul, header a {
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+header ul a {
+    padding: 30px 0;
+}
+
+header ul a:hover {
+    padding-bottom: 22px;
+    border-bottom: 2px solid #3A61F8;
+}
+
+header .logo, header ul {
+    margin-top: 3px;
+}
+
+header .btn {
+    position: relative;
+    top: 0;
+    float: right;
+    margin-left: 15px;
+}
+
+.logo {
+    float: left;
+    margin-right: 15px;
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
