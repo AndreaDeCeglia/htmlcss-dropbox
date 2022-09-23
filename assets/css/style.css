@@ -24,7 +24,7 @@ img{
 }
 
 .border-b-gray{
-    border-bottom: gray;
+    border-bottom: 1px solid gray;
 }
 
 /* margin/padding */
@@ -41,6 +41,18 @@ img{
     margin-top: 40px;
 }
 
+.margin-top30{
+    margin-top: 30px;
+}
+
+.margin-top20{
+    margin-top: 20px;
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
 .margin-left10{
     margin-left: 10px;
 }
@@ -51,6 +63,18 @@ img{
 
 .margin-tb{
     margin: 20px 0;
+}
+
+.padding-top20{
+    padding-top: 20px;
+}
+
+.padding-top30{
+    padding-top: 30px;
+}
+
+.padding-top40{
+    padding-top: 40px;
 }
 
 .padding-top50{
@@ -215,6 +239,10 @@ img{
     flex-basis: 32%;
 }
 
+.col-39{
+    flex-basis: 39%;
+}
+
 .col-40{
     flex-basis: 40%;
 }
@@ -227,12 +255,12 @@ img{
     flex-basis: 25%;
 }
 
-.col-40{
-    flex-basis: 39%;
+.col-59{
+    flex-basis: 59%;
 }
 
 .col-60{
-    flex-basis: 59%;
+    flex-basis: 60%;
 }
 
 .col-70{
@@ -395,3 +423,15 @@ nav ul li {
  }
 
  /* business plans section */
+
+
+ /* enterprise section */
+
+ #enterprise-btn{
+    text-align: right;
+    padding-top: 30px;
+ }
+
+ #h3enterprise{
+    margin: 20px 0;
+ }
