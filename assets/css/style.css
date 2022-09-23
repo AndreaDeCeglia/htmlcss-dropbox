@@ -7,6 +7,10 @@
     /* border: 1px solid black; */
 }
 
+p{
+    font-size: 12px;
+}
+
 .unstyle-list{
     list-style: none;
 }
@@ -27,7 +31,7 @@ img{
     border-bottom: 1px solid gray;
 }
 
-/* margin/padding */
+/* margin top */
 
 .margin-top100{
     margin-top: 100px;
@@ -57,9 +61,13 @@ img{
     margin-top: 10px;
 }
 
+/* margin bottom */
+
 .margin-bottom20{
     margin-bottom: 20px;
 }
+
+/* margin left */
 
 .margin-left10{
     margin-left: 10px;
@@ -69,9 +77,7 @@ img{
     margin-left: 20px;
 }
 
-.margin-tb{
-    margin: 20px 0;
-}
+/* padding top */
 
 .padding-top20{
     padding-top: 20px;
@@ -93,6 +99,8 @@ img{
     padding-top: 100px;
 }
 
+/* padding % */
+
 .padding-1{
     padding: 1%;
 }
@@ -101,14 +109,28 @@ img{
     padding: 2%;
 }
 
+/* margin % */
+
 .margin-1{
     margin: 1%;
 }
 
 /* margin Xpx 0; */
 
+.margin10-0{
+    margin: 10px 0;
+}
+
 .margin20-0{
     margin: 20px 0;
+}
+
+.margin50-0{
+    margin: 50px 0;
+}
+
+.margin100-0{
+    margin: 100px 0;
 }
 
 /* font size */
