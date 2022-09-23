@@ -33,6 +33,10 @@ img{
     margin-top: 100px;
 }
 
+.margin-top80{
+    margin-top: 80px;
+}
+
 .margin-top50{
     margin-top: 50px;
 }
@@ -49,7 +53,11 @@ img{
     margin-top: 20px;
 }
 
-.margin-bottom{
+.margin-top10{
+    margin-top: 10px;
+}
+
+.margin-bottom20{
     margin-bottom: 20px;
 }
 
@@ -89,8 +97,18 @@ img{
     padding: 1%;
 }
 
+.padding-2{
+    padding: 2%;
+}
+
 .margin-1{
     margin: 1%;
+}
+
+/* margin Xpx 0; */
+
+.margin20-0{
+    margin: 20px 0;
 }
 
 /* font size */
@@ -435,3 +453,6 @@ nav ul li {
  #h3enterprise{
     margin: 20px 0;
  }
+
+ /* partner section */
+
