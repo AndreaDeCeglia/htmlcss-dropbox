@@ -143,6 +143,10 @@ img{
     padding: 50px 0;
 }
 
+.padding100-0{
+    padding: 100px 0;
+}
+
 /* font size */
 
 .font-size10{
@@ -322,6 +326,7 @@ img{
 .btn{
     padding: 5px 15px;
     text-decoration: none;
+    font-size: 12px;
 }
 
 .blue{
@@ -490,6 +495,18 @@ nav ul li {
 
  /* squares section */
 
- #squares{
+ .squares3{
     height: calc( 100vW / 3 );
+ }
+
+ /* doesn't work */
+ .col1-3>.col-50{
+    height: 50%;
+ }
+
+ #s-one{
+    background-image: url('../img/designit.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain; 
  }
