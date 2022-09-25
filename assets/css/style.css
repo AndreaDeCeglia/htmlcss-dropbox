@@ -23,6 +23,10 @@ img{
     width: 100%;
 }
 
+a{
+    cursor: pointer;
+}
+
 .border-gray{
     border: 1px solid gray
 }
@@ -360,6 +364,7 @@ img{
     text-decoration: none;
     font-size: 12px;
     text-align: center;
+    cursor: pointer;
 }
 
 .blue{
@@ -577,6 +582,11 @@ nav ul li {
 
  footer li{
     padding: 10px 0;
+ }
+
+ footer a{
+    color: white;
+    text-decoration: none;
  }
 
  #footer-line{
