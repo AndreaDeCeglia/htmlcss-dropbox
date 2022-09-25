@@ -31,6 +31,10 @@ img{
     border-bottom: 1px solid gray;
 }
 
+.line-height20{
+    line-height: 20px;
+}
+
 /* margin top */
 
 .margin-top100{
@@ -67,7 +71,7 @@ img{
     margin-bottom: 20px;
 }
 
-/* margin left */
+/* margin padding left right */
 
 .margin-left10{
     margin-left: 10px;
@@ -75,6 +79,10 @@ img{
 
 .margin-left20{
     margin-left: 20px;
+}
+
+.margin-right10{
+    margin-right: 10px;
 }
 
 .padding-left20{
@@ -137,6 +145,10 @@ img{
     margin: 50px 0;
 }
 
+.margin80-0{
+    margin: 80px 0;
+}
+
 .margin100-0{
     margin: 100px 0;
 }
@@ -145,6 +157,10 @@ img{
 
 .padding50-0{
     padding: 50px 0;
+}
+
+.padding80-0{
+    padding: 80px 0;
 }
 
 .padding100-0{
@@ -287,6 +303,10 @@ img{
 
 .col1-3{
     flex-basis: calc( 100% / 3 );
+}
+
+.col-20{
+    flex-basis: 20%;
 }
 
 .col-30{
@@ -513,4 +533,35 @@ nav ul li {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain; 
+ }
+
+ /* FAQ section */
+
+ /* footer section */
+
+ footer{
+    background-color: black;
+    color: white;
+ }
+
+ footer h3{
+    padding: 20px 0;
+ }
+
+ footer li{
+    padding: 10px 0;
+ }
+
+ #footer-line{
+    width: 120px;
+    height: 3px;
+    background-color: white;
+ }
+
+ #language-section> div{
+    display: inline;
+ }
+
+ #language-section{
+    padding-bottom: 80px;
  }
