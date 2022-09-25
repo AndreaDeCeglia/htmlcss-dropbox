@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 p{
@@ -496,13 +496,19 @@ nav ul li {
 }
 
 
- .container-60{
+.container-60{
     position: relative;
     top: 50px;
- }
+}
 
  /* business plans section */
 
+#plans-table li{
+    text-indent: -10px;
+    padding-left: 1.2em;
+    line-height: 20px;
+    
+}
 
  /* enterprise section */
 
