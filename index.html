@@ -79,7 +79,7 @@
         <!-- jumbotron section -->
         <section class="jumbotron">
 
-            <div class="container-60">
+            <div id="jumbo" class="container-60">
 
                 <div class="title">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
@@ -590,7 +590,19 @@
                 </div>
                 
                 <!-- central section -->
-                <div class="flex-r col1-3"></div>
+                <div class="flex-r col1-3 padding-2">
+                    <div id="s-central">
+                        <div class="short-line"></div>
+                        <div id="c-txt" class="margin-top50">
+                            <p>
+                                "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper."
+                            </p>
+                            <p class="margin-top50">
+                                Morten Thomsen, Global IT Lead
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 
                 <!-- right section -->
                 <div class="flex-r col1-3 wrap squares3">
@@ -600,6 +612,8 @@
                     <div id="s-eight" class="col-50"></div>
                 </div>
             </div>
+
+            <!-- bottom part of colored squares -->
             <div class="padding100-0">
                 <div class="container-50 flex-r j-c-s-b">
                     <div class="col-50">
@@ -613,25 +627,9 @@
                 </div>
             </div>
         </section>
-        <!--appunto da lezione : per creare l'altezza dei quadratini
-            colorati height: calc (vw / 3)...
-        e ricordare l'OVERFLOW (forse :auto) per la sezione centrale -->
-        <!-- <h1>test</h1>
-        <section>
-        </section>
-        <div style="display: flex; flex-wrap: wrap; width: calc(100vw-15px); margin: 0; padding: 0; border: 0;">
-            <div style="width: calc((100vw-15px)/3); height: calc((100vw-15px)/3); display: flex; flex-wrap: wrap;">
-                <div style="width: 50%;height: 50%; background-color: pink;margin: 0; padding: 0; border: 0;"></div>
-                <div style="width: 50%;height: 50%; background-color: green; margin: 0; padding: 0; border: 0;"></div>
-                <div style="width: 50%;height: 50%; background-color: yellow; margin: 0; padding: 0; border: 0;"></div>
-                <div style="width: 50%;height: 50%; background-color: red; margin: 0; padding: 0; border: 0;"></div>
-            </div>
-            <div style="width: calc((100vw-15px)/3);height: calc((100vw-15px)/3); background-color: pink;"></div>
-            <div style="width: calc((100vw-15px)/3);height: calc((100vw-15px)/3); background-color:red;"></div>
-        </div>     -->
     
 
-        <!-- FAQ section (bonus still misses) -->
+        <!-- FAQ section -->
         <section class="margin-top100">
 
 
@@ -645,31 +643,43 @@
                 </div>
 
                 <!-- first FAQ -->
-                <div class="padding50-0 border-b-gray flex-r j-c-s-b">
-                    <h5>
-                        Qual'è la differenza tra Dropbox Business e Dropbox Business advanced ?
-                    </h5>
-                    <div id="change-arrow" class="margin-left20">
+                <div class="FAQ padding50-0 border-b-gray flex-r j-c-s-b">
+                    <div class="txt-section">
+                        <h5>
+                            Qual'è la differenza tra Dropbox Business e Dropbox Business advanced ?
+                        </h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos cumque blanditiis aspernatur omnis? Non quidem, rem aspernatur deserunt temporibus minus, ea ab tempore illo cum, tempora ullam. Eaque, provident illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore rem praesentium placeat sed dolorem dolorum iure perspiciatis impedit est tenetur reiciendis ipsa amet, omnis soluta molestiae sint exercitationem temporibus quod!</p>
+                    </div>
+                    
+                    <div class="change-arrow margin-left20">
                         <i class="fa-sharp fa-solid fa-chevron-down"></i>
                     </div>
                 </div>
                 
                 <!-- second FAQ -->
-                <div class="padding50-0 border-b-gray flex-r j-c-s-b">
-                    <h5>
-                        Qual'è la differenza tra Dropbox Business e Dropbox Business advanced ?
-                    </h5>
-                    <div id="change-arrow" class="margin-left20">
+                <div class="FAQ padding50-0 border-b-gray flex-r j-c-s-b">
+                    <div class="txt-section">
+                        <h5>
+                            Qual'è la differenza tra Dropbox Business e Dropbox Business advanced ?
+                        </h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos cumque blanditiis aspernatur omnis? Non quidem, rem aspernatur deserunt temporibus minus, ea ab tempore illo cum, tempora ullam. Eaque, provident illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore rem praesentium placeat sed dolorem dolorum iure perspiciatis impedit est tenetur reiciendis ipsa amet, omnis soluta molestiae sint exercitationem temporibus quod!</p>
+                    </div>
+                    
+                    <div class="change-arrow margin-left20">
                         <i class="fa-sharp fa-solid fa-chevron-down"></i>
                     </div>
                 </div>
                 
                 <!-- third FAQ -->
-                <div class="padding50-0 border-b-gray flex-r j-c-s-b">
-                    <h5>
-                        Qual'è la differenza tra Dropbox Business e Dropbox Business advanced ?
-                    </h5>
-                    <div id="change-arrow" class="margin-left20">
+                <div class="FAQ padding50-0 border-b-gray flex-r j-c-s-b">
+                    <div class="txt-section">
+                        <h5>
+                            Qual'è la differenza tra Dropbox Business e Dropbox Business advanced ?
+                        </h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos cumque blanditiis aspernatur omnis? Non quidem, rem aspernatur deserunt temporibus minus, ea ab tempore illo cum, tempora ullam. Eaque, provident illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore rem praesentium placeat sed dolorem dolorum iure perspiciatis impedit est tenetur reiciendis ipsa amet, omnis soluta molestiae sint exercitationem temporibus quod!</p>
+                    </div>
+                    
+                    <div class="change-arrow margin-left20">
                         <i class="fa-sharp fa-solid fa-chevron-down"></i>
                     </div>
                 </div>
@@ -713,7 +723,7 @@
                         
                         <li>
                             <a href="">
-                               Piani 
+                                Piani 
                             </a>
                         </li>
                         
@@ -725,7 +735,7 @@
                         
                         <li>
                             <a href="">
-                               Funzioni 
+                                Funzioni 
                             </a>
                         </li>
                     
@@ -815,7 +825,7 @@
                         
                         <li>
                             <a href="">
-                               Funzioni 
+                                Funzioni 
                             </a>
                         </li>
                     
