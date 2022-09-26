@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 p{
@@ -27,12 +27,20 @@ a{
     cursor: pointer;
 }
 
+a:hover{
+    filter: brightness(200%);
+}
+
 .border-gray{
     border: 1px solid gray
 }
 
 .border-b-gray{
     border-bottom: 1px solid gray;
+}
+
+.border-top-gray{
+    border-top: 1px solid gray;
 }
 
 .line-height20{
@@ -119,6 +127,12 @@ a{
     padding-top: 100px;
 }
 
+/* padding-bottom */
+
+.padding-bottom20{
+    padding-bottom: 20px;
+}
+
 /* padding % */
 
 .padding-1{
@@ -169,6 +183,14 @@ a{
 
 .padding20-0{
     padding: 20px 0;
+}
+
+.padding30-0{
+    padding: 30px 0;
+}
+
+.padding40-0{
+    padding: 40px 0;
 }
 
 .padding50-0{
@@ -371,6 +393,10 @@ a{
     cursor: pointer;
 }
 
+.btn:hover{
+    filter: brightness(150%);
+}
+
 .blue{
     background-color: #297AFE;
     color: white;
@@ -521,6 +547,10 @@ nav ul li {
 
  /* business plans section */
 
+#plans-table .col-title{
+    text-align: center;
+}
+
 #plans-table li{
     text-indent: -10px;
     padding-left: 1.2em;
@@ -540,6 +570,10 @@ nav ul li {
     background-color: gray;
 }
 
+.fa-check{
+    color: #297AFE;
+}
+
  /* enterprise section */
 
  #enterprise-btn{
@@ -553,6 +587,18 @@ nav ul li {
 
  /* partner section */
 
+ /* business section */
+
+ #business-title{
+    font-size: 2em;
+ }
+
+ /* 500k team */
+
+ #team-title{
+    font-size: 2em;
+ }
+
  /* squares section */
 
  #squares{
@@ -561,70 +607,51 @@ nav ul li {
 
  .col1-3>.col-50{
     height: 50%;
+    cursor: pointer;
+ }
+
+ #squares img{
+    width: 60%;
+    filter: invert(97%);
  }
 
  #s-one{
-    background-image: url('../img/designit.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 60%;
     background-color: #6eb98b;
     border-style: inset;
     border: 10px solid #b0cebd; 
  }
 
  #s-two{
-    background-image: url('../img/arizona_state_university.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: 60%; 
     background-color: #5e1430;
  }
 
  #s-three{
-    background-image: url('../img/university_of_florida.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: 60%; 
     background-color: rgb(24, 219, 253);
  }
 
  #s-four{
-    background-image: url('../img/topps.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: 60%;
     background-color: red; 
  }
 
  #s-five{
-    background-image: url('../img/world_bicycle_relief.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: 60%; 
     background-color: rgb(146, 30, 30);
  }
 
  #s-six{
-    background-image: url('../img/hearst_corp.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: 60%;
     background-color: rgb(156, 211, 224); 
  }
 
  #s-seven{
-    background-image: url('../img/lonely_planet.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: 60%; 
     background-color: rgb(110, 191, 216);
  }
 
  #s-eight{
-    background-image: url('../img/clear_channel.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: 60%; 
     background-color: rgb(224, 193, 88);
  }
@@ -693,7 +720,7 @@ nav ul li {
 
  #footer-line{
     width: 120px;
-    height: 3px;
+    height: 1px;
     background-color: white;
  }
 
